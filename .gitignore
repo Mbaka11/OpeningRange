@@ -1,0 +1,65 @@
+# --- Python build/cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.build/
+dist/
+build/
+.eggs/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Virtualenv & tools ---
+.python-version
+pip-wheel-metadata/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+.profile/
+# (Optional) if you export large notebooks as HTML/PDF locally:
+*.nbconvert.ipynb
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDEs (optional) ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Data (keep repo light) ---
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/README.md
+
+# If you add an 'interim' layer later:
+data/interim/*
+!data/interim/.gitkeep
+!data/interim/README.md
+
+# --- Reports & generated artifacts ---
+reports/figures/*
+!reports/figures/.gitkeep
+
+reports/tables/*
+!reports/tables/.gitkeep
+
+# --- Logs / scratch ---
+logs/
+*.log
+.tmp/
+tmp/
