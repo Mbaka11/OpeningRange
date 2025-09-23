@@ -1,4 +1,4 @@
-# Opening Range Strategy — NSXUSD (2020–2023)
+# Opening Range Trading Strategy — NSXUSD (2020–2023)
 
 > **Goal:** Present and rigorously test a simple Opening Range intraday strategy on NSXUSD (CFD/Index), with visuals that are understandable even for non-coders.
 
